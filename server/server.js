@@ -20,5 +20,8 @@ app.use("/api", (req, res, next) => {
 
 //define port
 
-app.listen(5002, () => console.log("app started at 5002..."));
+app.listen(5003, () => {
+  console.log("Server is running on port 5003");
+});
+
 
